@@ -74,7 +74,7 @@ script:
 notifications:
   email:
     recipients:
-      - tim@framstag.com
+      - aamirl.lodhi@gmail.com
     on_success: change
     on_failure: always
 
@@ -86,5 +86,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    repo: Framstag/libosmscout
+    repo: spalsher/OSMSoutMaster
     condition: $TARGET = importer
